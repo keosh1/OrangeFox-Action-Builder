@@ -20,11 +20,11 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/ymdzq/OFRP-device_xiaomi_mondrian'
+        default: 'https://github.com/xiaomi-sm8450-mondrian/OFRP-device_xiaomi_mondrian'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'fox_12.1-a15'
+        default: 'dev'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
@@ -45,7 +45,7 @@ on:
       MAGISK_VERSION:
         description: 'Specify your Magisk Version'
         required: true
-        default: 'Magisk'
+        default: 'MagiskAlpha'
         type: choice
         options:
         - Magisk
